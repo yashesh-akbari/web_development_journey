@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title> the student registertion form</title>
+</head>
+<body>
+	<form action="action.php          " method="post">
+	<h1>the student registertion form</h1>
+	name:<input type="textbox" requied>
+	<br>
+	en no:<input type="textbox" requied>
+	<br>
+	address:<input type="textarea" requied>
+	<br>
+	city:
+	<select name="city" id="city">
+	<option value=""></option>
+	<option value="navsari">navsari</option>
+	<option value="surat">Surat</option>
+	<option value="valsad">valsad</option>
+	</select>
+<br>
+gender:<br>
+<input type="radio" value="male" name="gender" id="male">male<br>
+<input type="radio" value="female" name="gender" id="female">female<br>
+<input type="radio" value="other" name="gender" id="other">other<br>
+hobby:<br>
+<input type="checkbox" value="playing" name="hobby" id="playing">playing<br>
+<input type="checkbox" value="sleeping" name="hobby" id="sleeping">sleeping<br>
+<input type="checkbox" value="eating" name="hobby" id="eating">eating<br>
+other:<input type="textarea"><br>
+submit<input type="submit" value="submit">
+reset<input type="reset" value="reset" >
+</form>
+</body>
+</html>
